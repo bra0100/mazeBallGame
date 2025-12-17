@@ -1,0 +1,20 @@
+.maze {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+body {
+    --ball-color: #343d41;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--ball-color);
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+}
